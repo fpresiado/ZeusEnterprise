@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "nodes": [
+    "Chat",
+    "Message",
+    "Chunk",
+    "Task",
+    "Plan",
+    "Run",
+    "Incident",
+    "Patch",
+    "File",
+    "Decision",
+    "Model",
+    "GateResult"
+  ],
+  "edges": [
+    "derived_from",
+    "caused_by",
+    "references",
+    "modifies",
+    "supersedes",
+    "validates",
+    "depends_on",
+    "produced"
+  ],
+  "storage_recommendation": "sqlite+fts5",
+  "notes": "All text searchable at Chunk level; edges capture causality and provenance."
+}

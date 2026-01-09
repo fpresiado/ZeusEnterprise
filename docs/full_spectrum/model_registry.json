@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "name": "local-qwen",
+      "provider": "local",
+      "purpose": "default coding",
+      "validated": "TBD"
+    },
+    {
+      "name": "runpod-<model>",
+      "provider": "runpod",
+      "purpose": "heavy fixes",
+      "validated": "TBD"
+    }
+  ]
+}

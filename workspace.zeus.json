@@ -1,0 +1,19 @@
+{
+  "name": "ZE_Workspace_Template",
+  "type": "node-typescript",
+  "install": "npm ci",
+  "build": "npm run build",
+  "test": "npm test",
+  "codegen": [],
+  "requiredPaths": [
+    "server",
+    "shared"
+  ],
+  "forbiddenActions": [
+    "git push",
+    "rm -rf",
+    "curl | bash"
+  ],
+  "maxPatchLines": 200,
+  "stopIfErrorsOver": 100
+}

@@ -1,0 +1,12 @@
+# Example. Replace @org/team with real owners.
+*               @org/ze-core
+
+/apps/api/*     @org/ze-backend
+/apps/web/*     @org/ze-frontend
+/packages/shared/* @org/ze-platform
+/scripts/*      @org/ze-platform
+
+# Security-sensitive
+/autonomy_policy.json @org/ze-security
+/guardrails.json      @org/ze-security
+/prompts/*            @org/ze-ai

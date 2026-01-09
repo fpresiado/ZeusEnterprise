@@ -1,0 +1,14 @@
+{
+  "currency": "USD",
+  "hard_cap_total": 1000,
+  "soft_caps": {
+    "per_run": 50,
+    "per_day": 150
+  },
+  "spend": {
+    "estimated_total": 0,
+    "actual_total": 0,
+    "remaining_estimated": 1000
+  },
+  "runs": []
+}

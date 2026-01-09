@@ -1,0 +1,24 @@
+{
+  "name": "zeus-enterprise",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "doctor": "node ./scripts/doctor.mjs",
+    "format": "pnpm -r format",
+    "start": "pnpm --parallel -r start"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "eslint": "^9.8.0",
+    "@eslint/js": "^9.8.0",
+    "prettier": "^3.3.3"
+  }
+}

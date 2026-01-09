@@ -1,0 +1,32 @@
+{
+  "truth_mode": {
+    "no_inventing_files_or_apis": true,
+    "must_reproduce_before_fix": true,
+    "must_rerun_build_or_tests_after_changes": true,
+    "must_report_uncertainty_explicitly": true
+  },
+  "autonomy_limits": {
+    "max_patch_lines": 200,
+    "stop_if_errors_over": 100,
+    "stop_on_missing_required_paths": true,
+    "stop_on_missing_codegen": true
+  },
+  "forbidden": {
+    "commands": [
+      "rm -rf",
+      "git push",
+      "curl | bash"
+    ],
+    "network": [
+      "silent_cloud_fallback"
+    ]
+  },
+  "required_artifacts_on_failure_or_patch": [
+    "incident.json",
+    "console.log",
+    "console.jsonl",
+    "repro_steps.txt",
+    "diff.patch",
+    "env_snapshot.json"
+  ]
+}

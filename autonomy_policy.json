@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "default_tier": 2,
+  "budgets": {
+    "max_iterations": 25,
+    "max_wall_minutes": 120,
+    "max_repeat_signature": 3,
+    "max_same_command_retries": 2
+  },
+  "forbidden_write_globs": [
+    "**/.env*",
+    "**/SECURITY.md",
+    "docs/full_spectrum/**/policy/**"
+  ],
+  "required_gates": [
+    "doctor",
+    "typecheck",
+    "test",
+    "build"
+  ],
+  "stop_conditions": [
+    "budget_exceeded",
+    "repeat_signature_limit",
+    "secrets_detected",
+    "gates_passed_twice_clean"
+  ],
+  "cost_governance": {
+    "currency": "USD",
+    "hard_cap_total": 1000,
+    "per_run_cap": 50,
+    "per_day_cap": 150,
+    "estimate_conservative": true
+  }
+}

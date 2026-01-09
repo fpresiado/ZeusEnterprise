@@ -1,0 +1,13 @@
+# ZE: aider defaults for RunPod (OpenAI-compatible endpoint via vLLM)
+# You can override any of these via env vars.
+model: gpt-4o-mini
+# For local vLLM OpenAI server:
+# export OPENAI_API_BASE=http://127.0.0.1:8000/v1
+# export OPENAI_API_KEY=local
+# Then aider will use it (see docs/RunPod.md)
+auto-commits: false
+dirty-commits: false
+attribute-author: ZE-autonomy
+attribute-committer: ZE-autonomy
+# Reduce surprise edits
+edit-format: whole

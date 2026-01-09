@@ -1,0 +1,48 @@
+{
+  "phase_points_total": 1000,
+  "phases": [
+    {
+      "phase": 0,
+      "name": "Foundational Lock-In",
+      "points": 100,
+      "percent_complete": 0
+    },
+    {
+      "phase": 1,
+      "name": "AI-Native OS Kernel",
+      "points": 200,
+      "percent_complete": 0
+    },
+    {
+      "phase": 2,
+      "name": "Scheduler & Budget Enforcement",
+      "points": 150,
+      "percent_complete": 0
+    },
+    {
+      "phase": 3,
+      "name": "Memory Graph & Chat System",
+      "points": 150,
+      "percent_complete": 0
+    },
+    {
+      "phase": 4,
+      "name": "Autonomy & Self-Repair Loop",
+      "points": 150,
+      "percent_complete": 0
+    },
+    {
+      "phase": 5,
+      "name": "Admin Panel & Patch System",
+      "points": 150,
+      "percent_complete": 0
+    },
+    {
+      "phase": 6,
+      "name": "Security & Family Safety Hardening",
+      "points": 100,
+      "percent_complete": 0
+    }
+  ],
+  "total_project_percent": 0
+}
