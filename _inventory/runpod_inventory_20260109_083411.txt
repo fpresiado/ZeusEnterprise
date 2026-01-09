@@ -1,0 +1,69 @@
+=== RUNPOD INVENTORY ===
+Timestamp: 2026-01-09 08:34:11 UTC
+
+## OS
+Linux ac47e3e1edee 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+## GPU
+Fri Jan  9 08:34:11 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.127.08             Driver Version: 550.127.08     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               On  |   00000000:C6:00.0 Off |                  Off |
+| 30%   29C    P8             20W /  300W |       2MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+## Disk/Memory
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         100G   17M  100G   1% /
+tmpfs            64M     0   64M   0% /dev
+/dev/nvme1n1    100G   51G   50G  51% /workspace
+shm              29G     0   29G   0% /dev/shm
+/dev/nvme0n1p2  1.8T   16G  1.7T   1% /usr/bin/nvidia-smi
+tmpfs           252G     0  252G   0% /sys/fs/cgroup
+tmpfs           252G   12K  252G   1% /proc/driver/nvidia
+tmpfs           252G  4.0K  252G   1% /etc/nvidia/nvidia-application-profiles-rc.d
+tmpfs            51G   33M   51G   1% /run/nvidia-persistenced/socket
+tmpfs           252G     0  252G   0% /proc/asound
+tmpfs           252G     0  252G   0% /proc/acpi
+tmpfs           252G     0  252G   0% /proc/scsi
+tmpfs           252G     0  252G   0% /sys/firmware
+tmpfs           252G     0  252G   0% /sys/devices/virtual/powercap
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        75Gi        85Gi       174Mi       342Gi       424Gi
+Swap:             0B          0B          0B
+
+## Tools
+git version 2.34.1
+Python 3.10.12
+pip 25.3 from /usr/local/lib/python3.12/dist-packages/pip (python 3.12)
+
+## Repo
+## main...origin/main
+?? _inventory/
+ae0c8c5 Initial import: ZEusEnterprise AI LOCKED BUDGET1000 FINAL
